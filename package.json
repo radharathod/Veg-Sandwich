@@ -2,6 +2,7 @@
   "name": "veg-sandwich",
   "version": "0.1.0",
   "private": true,
+  "homepage":" https://radharathod.github.io/Veg-Sandwich/",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "axios": "^0.19.2",
@@ -49,7 +50,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy":"npm build",
+    "deploy":"gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
