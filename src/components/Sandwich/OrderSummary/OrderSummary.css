@@ -1,0 +1,23 @@
+.OrderSummary{
+    text-align: left;
+    font-weight: bold;
+}
+
+.red{
+    background-color: rgb(216, 70, 70);
+    width: 80px;
+    height: 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+
+.green{
+    background-color: rgb(45, 212, 45);
+    width: 80px;
+    height: 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-weight: bold;
+}

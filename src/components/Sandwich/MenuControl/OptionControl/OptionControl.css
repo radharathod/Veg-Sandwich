@@ -1,0 +1,59 @@
+.OptionControl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.OptionControl button{
+    display: block;
+    
+    font: inherit;
+    width: 80px;
+    padding: 5px ;
+    margin: 0 5px;
+    border: 1px solid brown;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+   background-color: rgb(211, 134, 153);
+}
+
+.OptionControl button:disabled{
+    background-color: chocolate;
+    border: 1px solid rgb(46, 22, 5);
+    color: cornsilk;
+    cursor: default;
+}
+
+.OptionControl button:hover:disabled{
+    background-color: darkgoldenrod;
+    color: darkgreen;
+    cursor: not-allowed;
+}
+
+.options{
+    padding: 10px ;
+    font-weight: bold;
+    width: 80px;
+}
+
+.OptionControl.Add{
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+.OptionControl.Remove{
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+.OptionControl.Add:hover, .OptionControl.Add:active{
+    background-color: darkorange;
+    color: darkred;
+}
+
+.OptionControl.Remove:hover, .OptionControl.Remove:active{
+    background-color: darkorange;
+    color: darkred;
+}

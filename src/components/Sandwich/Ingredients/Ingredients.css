@@ -1,0 +1,83 @@
+  .BreadTop {
+    height:8%;
+    width: 90%;
+    background: linear-gradient(#ffe0cc,#ff6600);
+    box-shadow: 5px -10px   hsl(29, 65%, 89%) ;
+    border-radius: 10px;
+    border: 2px solid #ffb280;
+    margin: 2%;
+  }
+
+  .Cabbage{
+    width:90%;
+    height:3%;
+    background:#ccffcc;
+    margin:1%;
+    border-radius: 10px;
+    border: 2px solid #b3ffb3;
+    text-align: center;
+  }
+  
+  .Cucumber{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: px 1em;
+    height: 3%;
+    width: 90%;
+    margin:.5%;
+  }
+  
+  .Cucumber1{
+    background: linear-gradient(#d9f0d9,#009900);
+    border-radius: 50px;
+    margin: 1%;
+  }
+  
+  .Cucumber2{
+    background: linear-gradient(#d9f0d9,#009900);
+    border-radius: 50px;
+    margin: 1%;
+  }
+  
+  .Cucumber3{
+    background: linear-gradient(#d9f0d9,#009900);
+    border-radius: 50px;
+    margin: 1%;
+  }
+  
+  .Tomato{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px 1em;
+    height: 4%;
+    width: 140%;
+    margin:.5%;
+  }
+  .Tomato1{
+    background: linear-gradient(#ff6600,#ff0000);
+    border-radius: 40px;
+    margin: .5%;
+   }
+  
+  .Tomato2{
+   background: linear-gradient( #ff6600,#ff0000);
+   border-radius: 40px;
+   margin: .5%;
+  }
+  
+  .Cheese{
+     height:4%;
+    width: 90%;
+    background: #ffff00;
+    border-radius: 10px;
+    margin: 1%;
+  }
+  
+  .BreadBottom{
+    height:8%;
+    width: 90%;
+    background: linear-gradient(#ffe0cc,#ff6600);
+    border-radius: 10px;
+    border: 2px solid #ffb280;
+    margin: 1%;
+  }
